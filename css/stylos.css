@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+    background-color: rgb(74,110,176)  ;
+}
+
+h1,h2,.identificador,.presentacion-nombre,.skill-nombre{
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-container{
+    display: flex;
+    align-items: center;
+    background:rgb(74,110,176);
+    height: 100%;
+    width: 100%;
+}
+
+.div-item {
+    padding-inline: 10px;
+    height: 100%;
+    width: 33.33%; 
+}
+
+#imagen{
+    text-align:center;
+    align-self: center;
+    display: block;
+}
+
+.imagenPerfil{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-size: 1em;
+    border-radius: 100%;
+    border-style: none;
+    box-shadow: 0 0 5px rgb(255, 255, 255,0.2);
+}
+
+.texto{
+    font-size: 15px;
+    display:block;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-top: 1px;
+}
+
+.container-presentacion, .skills-container{
+    max-width: 600px;
+    margin: 10px ;
+    padding: 10px;
+    background-color: rgb(74,110,176);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgb(255, 255, 255,0.2);
+}
+
+.titulo-proyecto,.titulo-pre{
+    max-width: 600px;
+    margin: 10px ;
+    padding: 10px;
+    background-color: rgb( 17, 76, 95);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgb(255, 255, 255,0.2);
+}
+
+.container-perfil{
+    text-align: justify;
+    max-width: 600px;
+    margin: 10px ;
+    padding: 10px;
+    background-color: rgb(74,110,176);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgb(255, 255, 255,0.2);
+}
+
+.presentacion,.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.presentacion-cont{
+    color: black;
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.skill-nivel {
+    color: black;
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.titulo-proyecto{
+    font-size: 20px;
+}
+
+
